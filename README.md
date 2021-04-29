@@ -5,7 +5,7 @@
 
 前缀过滤请设置 filter_prefixs = ['NI', 'BJ']
 
-使用方法参考https://www.jianshu.com/p/ef356e5f2611
+使用方法参考https://github.com/xuezhulian/selectorsunref
 
 
 参考:https://github.com/xuezhulian/selectorsunref
