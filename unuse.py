@@ -6,7 +6,7 @@ import sys
 
 # you can change
 white_pods_ignore = []
-filter_prefixs = ['NI', 'BJ']
+filter_prefixs = ['NI', 'WX']
 
 # you cant not change
 third_prefixStr = ['FMDatabase', 'AF', 'YY', 'IJKAVPlayer']
@@ -88,7 +88,7 @@ def protocol_selectors(path):
                 
 
     project_dir = '/'.join(sys.path[0].strip().split('/')[0:-1])
-    project_dir = raw_input('Please input project dir\nFor example:/Users/bjhl/Desktop/GitLab/BJLogan\n').strip()
+    project_dir = raw_input('Please input project dir\nFor example:/Users/Apple/Desktop/GitLab/WXLogan\n').strip()
     #print("project_dir",project_dir)
     #/Users/xx/Desktop/GitHub/selectorsunref/TestDemo
     if not os.path.isdir(project_dir):
